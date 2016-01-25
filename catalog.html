@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+   
+    <head>
+        <meta charset="utf-8">
+        <title>Gllacy Shop</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    </head>
+    
+    <body>
+        <header class="main-header">
+            <div class="container">
+                <div class="header-logo">
+                    <img src="http://placehold.it/154x64" width="154" height="64" alt="Gllacy Shop">
+                </div>
+                <nav class="main-navigation">
+                    <ul>
+                        <li>
+                            <a class="main-navigation-active" href="#">Каталог</a>
+                        </li>
+                        <li>
+                            <a href="#">Доставка и оплата</a>
+                        </li>
+                        <li>
+                            <a href="#">О Компании</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="user-block">
+                    <a class="search" href="#"></a>
+                    <a class="login" href="#">Вход</a>
+                    <a class="cart" href="#">Пусто</a>
+                </div>
+                <div class="information-block">
+                    <div class="hours-header">С 10 до 20, ежедневно</div>
+                    <div class="phone-header">8 812 450-25-25</div>
+                </div>
+            </div>
+        </header>
+            <main class="container">
+                <section class="catalog-header">
+                   <div class="catalog-breadcrumbs">
+                        <a href="#">Главная</a>
+                        <a href="#">Каталог</a>
+                        <a class="catalog-breadcrumbs-active" href="#">Сливочное</a>
+                    </div>
+                    <h2 class="catalog-title">Сливочное мороженое</h2>
+                </section>
+                <section class="catalog-filter">
+                    <div class="catalog-filter-sort">
+                        <div class="catalog-filter-title">Сортировка:</div>
+                        <select>
+                            <option>по популярности</option>
+                            <option>сначала недорогие</option>
+                            <option>сначала дорогие</option>
+                            <option>по жирности</option>
+                        </select>
+                    </div>
+                    <div class="catalog-filter-price">
+                        <div class="catalog-filter-title">Цена: 100 руб. – 500 руб.</div>
+                    </div>
+                    <div class="catalog-filter-fat">
+                        <div class="catalog-filter-title">Жирность:</div>
+                        <form>
+                            <label for="before-0">
+                                <input type="radio" name="before-0" id="before-0"> 0%
+                            </label>
+                            <label for="before-10">
+                                <input type="radio" name="before-10" id="before-10" checked> до 10%
+                            </label>
+                            <label for="before-30">
+                                <input type="radio" name="before-30" id="before-30"> до 30%
+                            </label>
+                            <label for="higher-30">
+                                <input type="radio" name="higher-30" id="higher-30"> выше 30%
+                            </label>
+                        </form>
+                    </div>
+                    <div class="catalog-filter-fillers">
+                        <div class="catalog-filter-title">Наполнители:</div>
+                        <form>
+                            <label for="chocolate">
+                                <input type="checkbox" name="chocolate" id="chocolate" checked> шоколадные
+                            </label>
+                            <label for="sugar-topping">
+                                <input type="checkbox" name="sugar-topping" id="sugar-topping" checked> сахарные присыпки
+                            </label>
+                            <label for="fruit">
+                                <input type="checkbox" name="fruit" id="fruit" checked> фрукты
+                            </label>
+                            <label for="syrups">
+                                <input type="checkbox" name="syrups" id="syrups"> сиропы
+                            </label>
+                            <label for="jams">
+                                <input type="checkbox" name="jams" id="jams"> джемы
+                            </label>
+                            <input class="btn secondary-btn small-btn" type="submit" value="Применить">
+                        </form>
+                    </div>
+                </section>
+                <section class="catalog">
+                    <div class="catalog-item">
+                        <div class="catalog-label">
+                            <span class="label-hit"></span>
+                        </div>
+                        <div class="catalog-price">
+                            <span class="catalog-price-rubles">310 ₽</span>
+                            <span class="catalog-price-kg">/кг</span>
+                        </div>
+                        <div class="catalog-img">
+                            <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
+                        </div>
+                        <a class="catalog-name" href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-label">
+                            <span class="label-hit"></span>
+                        </div>
+                        <div class="catalog-price">
+                            <span class="catalog-price-rubles">380 ₽</span>
+                            <span class="catalog-price-kg">/кг</span>
+                        </div>
+                        <div class="catalog-img">
+                            <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочно-кофейное с кусочками шоколада">
+                        </div>
+                        <a class="catalog-name" href="#">Сливочно-кофейное с кусочками шоколада</a>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-label">
+                            <span class="label-hit"></span>
+                        </div>
+                        <div class="catalog-price">
+                            <span class="catalog-price-rubles">355 ₽</span>
+                            <span class="catalog-price-kg">/кг</span>
+                        </div>
+                        <div class="catalog-img">
+                            <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочно-клубничное с присыпкой из белого шоколада">
+                        </div>
+                        <a class="catalog-name" href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-label">
+                            <span class="label-hit"></span>
+                        </div>
+                        <div class="catalog-price">
+                            <span class="catalog-price-rubles">415 ₽</span>
+                            <span class="catalog-price-kg">/кг</span>
+                        </div>
+                        <div class="catalog-img">
+                            <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочное крем-брюле с карамельной подливкой">
+                        </div>
+                        <a class="catalog-name" href="#">Сливочное крем-брюле с карамельной подливкой</a>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-label">
+                            <span class="label-hit"></span>
+                        </div>
+                        <div class="catalog-price">
+                            <span class="catalog-price-rubles">325 ₽</span>
+                            <span class="catalog-price-kg">/кг</span>
+                        </div>
+                        <div class="catalog-img">
+                            <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочное с брусничным джемом">
+                        </div>
+                        <a class="catalog-name" href="#">Сливочное с брусничным джемом</a>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-label">
+                            <span class="label-hit"></span>
+                        </div>
+                        <div class="catalog-price">
+                            <span class="catalog-price-rubles">410 ₽</span>
+                            <span class="catalog-price-kg">/кг</span>
+                        </div>
+                        <div class="catalog-img">
+                            <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочно-черничное с цельными ягодами черники">
+                        </div>
+                        <a class="catalog-name" href="#">Сливочно-черничное с цельными ягодами черники</a>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-label">
+                            <span class="label-hit"></span>
+                        </div>
+                        <div class="catalog-price">
+                            <span class="catalog-price-rubles">375 ₽</span>
+                            <span class="catalog-price-kg">/кг</span>
+                        </div>
+                        <div class="catalog-img">
+                            <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочно-лимонное с карамельной присыпкой">
+                        </div>
+                        <a class="catalog-name" href="#">Сливочно-лимонное с карамельной присыпкой</a>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-label">
+                            <span class="label-hit"></span>
+                        </div>
+                        <div class="catalog-price">
+                            <span class="catalog-price-rubles">320 ₽</span>
+                            <span class="catalog-price-kg">/кг</span>
+                        </div>
+                        <div class="catalog-img">
+                            <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочное с шоколадной стружкой">
+                        </div>
+                        <a class="catalog-name" href="#">Сливочное с шоколадной стружкой</a>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-label">
+                            <span class="label-hit"></span>
+                        </div>
+                        <div class="catalog-price">
+                            <span class="catalog-price-rubles">440 ₽</span>
+                            <span class="catalog-price-kg">/кг</span>
+                        </div>
+                        <div class="catalog-img">
+                            <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочно-ванильное с кусочками шоколада">
+                        </div>
+                        <a class="catalog-name" href="#">Сливочно-ванильное с кусочками шоколада</a>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-label">
+                            <span class="label-hit"></span>
+                        </div>
+                        <div class="catalog-price">
+                            <span class="catalog-price-rubles">435 ₽</span>
+                            <span class="catalog-price-kg">/кг</span>
+                        </div>
+                        <div class="catalog-img">
+                            <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочноe с ментоловым сиропом">
+                        </div>
+                        <a class="catalog-name" href="#">Сливочноe с ментоловым сиропом</a>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-label">
+                            <span class="label-hit"></span>
+                        </div>
+                        <div class="catalog-price">
+                            <span class="catalog-price-rubles">355 ₽</span>
+                            <span class="catalog-price-kg">/кг</span>
+                        </div>
+                        <div class="catalog-img">
+                            <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочное с кусочками черного шоколада">
+                        </div>
+                        <a class="catalog-name" href="#">Сливочное с кусочками черного шоколада</a>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-label">
+                            <span class="label-hit"></span>
+                        </div>
+                        <div class="catalog-price">
+                            <span class="catalog-price-rubles">420 ₽</span>
+                            <span class="catalog-price-kg">/кг</span>
+                        </div>
+                        <div class="catalog-img">
+                            <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочное с мятным сиропом">
+                        </div>
+                        <a class="catalog-name" href="#">Сливочное с мятным сиропом</a>
+                    </div>
+                </section>
+                <section class="catalog-pagination">
+                    <a class="pagination-left" href="#"></a>
+                    <span class="pagination-btn-active">1</span>
+                    <a class="pagination-btn" href="#">2</a>
+                    <a class="pagination-btn" href="#">3</a>
+                    <a class="pagination-btn" href="#">4</a>
+                    <a class="pagination-right" href="#"></a>
+                </section>
+            </main>
+            <footer class="main-footer">
+                <div class="container">
+                    <section class="footer-social">
+                        <a class="social-btn twitter-btn" href="#">Твиттер</a>
+                        <a class="social-btn instagram-btn" href="#">Инстаграм</a>
+                        <a class="social-btn fb-btn" href="#">Фейсбук</a>
+                        <a class="social-btn vk-btn" href="#">Вконтакте</a>
+                    </section>
+                    <section class="footer-links">
+                        <a class="footer-links-special" href="#">Для поставщиков</a>
+                        <a href="#">Наши документы</a>
+                        <a href="#">О производстве</a>
+                        <a href="#">Экологические стандарты</a>
+                    </section>
+                    <section class="footer-copyright">
+                        <div class="footer-logo">
+                            <img src="http://placehold.it/108x38" width="108" height="38" alt="HTML Academy">
+                        </div>
+                        <div class="footer-links">
+                        Сделано в <a href="#">HTML Academy</a> © 2016
+                        </div>
+                    </section>
+                </div>
+            </footer>
+    </body>
