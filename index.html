@@ -44,12 +44,14 @@
                     </ul>
                 </nav>
                 <div class="search">
-                    <div class="search-form">
-                    <form action="#" method="get">
-                        <input type="search" placeholder="Что ищем?">
-                    </form>
-                    </div>
-                </div>
+                    <button class="search-btn" type="submit">
+                        <div class="search-form">
+                            <form action="#" method="get">
+                                <input type="search" placeholder="Что ищем?">
+                            </form>
+                        </div>
+                    </button>
+                </div>               
                 <div class="authorization">
                     <a class="authorization-title" href="#">Вход</a>
                     <div class="authorization-form">
@@ -68,30 +70,50 @@
                     <a class="cart-title" href="#">2 товара</a>
                     <div class="cart-form">
                         <div class="cart-item">
-                            <button class="cart-item-delete"></button>
-                            <div class="cart-item-name">
-                            <img src="http://placehold.it/33x33" width="33" height="33" alt="Пломбир с апельсиновым джемом">
-                            Пломбир с апельсиновым джемом
-                            </div>
-                            <div class="cart-item-weight">
-                            1,5 кг <span class="cart-item-weight-gray">х 200 руб.</span>
-                            </div>
-                            <div class="cart-item-price">
-                            300 руб.
-                            </div>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <button class="cart-item-delete"></button>
+                                    </td>
+                                    <td>
+                                        <figure>
+                                        <img src="http://placehold.it/33x33" width="33" height="33" alt="Пломбир с апельсиновым джемом">
+                                            <figcaption>
+                                            Пломбир с апельсиновым джемом
+                                            </figcaption>
+                                        </figure>
+                                    </td>
+                                    <td>
+                                        1,5 кг <span class="cart-item-weight-gray">х 200 руб.</span>
+                                    </td>
+                                    <td>
+                                        300 руб.
+                                    </td>
+                                </tr>
+                            </table>
                         </div>
                         <div class="cart-item">
-                            <button class="cart-item-delete"></button>
-                            <div class="cart-item-name">
-                            <img src="http://placehold.it/33x33" width="33" height="33" alt="Клубничный пломбир с присыпкой из белого шоколада">
-                            Клубничный пломбир с присыпкой из белого шоколада
-                            </div>
-                            <div class="cart-item-weight">
-                            1,5 кг <span class="cart-item-weight-gray">х 300 руб.</span>
-                            </div>
-                            <div class="cart-item-price">
-                            450 руб.
-                            </div>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <button class="cart-item-delete"></button>
+                                    </td>
+                                    <td>
+                                        <figure>
+                                        <img src="http://placehold.it/33x33" width="33" height="33" alt="Клубничный пломбир с присыпкой из белого шоколада">
+                                            <figcaption>
+                                            Клубничный пломбир с присыпкой из белого шоколада
+                                            </figcaption>
+                                        </figure>
+                                    </td>
+                                    <td>
+                                        1,5 кг <span class="cart-item-weight-gray">х 300 руб.</span>
+                                    </td>
+                                    <td>
+                                        450 руб.
+                                    </td>
+                                </tr>
+                            </table>
                         </div>
                         <div class="cart-price">
                             Итого: <span class="cart-price-total">750 руб.</span>
@@ -106,26 +128,33 @@
             </div>
         </header>
             <main class="container">
-                <div class="main-slider">
-                   <form>
-                        <h1 class="title-slider">Крем-брюле и пломбир с малиновым джемом</h1>
-                            <label for="img-1">
-                            <img src="http://placehold.it/647x584" width="647" height="584" alt="Крем-брюле и пломбир с малиновым джемом">
-                            </label>
-                            <label for="img-2">
-                            <img src="http://placehold.it/64x580" width="643" height="580" alt="Шоколадный пломбир и лимонный сорбет ">
-                            </label>
-                            <label for="img-3">
-                            <img src="http://placehold.it/643x580" width="637" height="582" alt="Пломбир с помадкой и клубничный щербет">
-                            </label>
+                <section class="main-slider">
+                        <input type="radio" id="slider-btn-1" name="toggle" checked>
+                        <input type="radio" id="slider-btn-2" name="toggle">
+                        <input type="radio" id="slider-btn-3" name="toggle">
                         <div class="slider-btn">
-                            <span class="slider-btn-active"><input type="submit" id="img-1"></span>
-                            <input type="submit" id="img-2">
-                            <input type="submit" id="img-3">
+                            <label for="slider-btn-1"></label>
+                            <label for="slider-btn-2"></label>
+                            <label for="slider-btn-3"></label>
+                        </div>                    
+                        <div class="slider-content">
+                            <div class="slider-slides">
+                                <div class="slider-slide-1">
+                                    <h1 class="title-slider">Крем-брюле и пломбир с малиновым джемом</h1>
+                                    <img src="http://placehold.it/647x584" width="647" height="584" alt="Крем-брюле и пломбир с малиновым джемом">
+                                </div>
+                                <div class="slider-slide-2">
+                                    <h1 class="title-slider">Крем-брюле и пломбир с малиновым джемом</h1>
+                                    <img src="http://placehold.it/643x580" width="643" height="580" alt="Шоколадный пломбир и лимонный сорбет ">
+                                </div>
+                                <div class="slider-slide-3">
+                                    <h1 class="title-slider">Крем-брюле и пломбир с малиновым джемом</h1>
+                                    <img src="http://placehold.it/643x580" width="637" height="582" alt="Пломбир с помадкой и клубничный щербет">
+                                </div>
+                            </div>                        
                         </div>
-                        <a class="btn primary-btn big-btn" href="#">Давайте оба!</a>
-                    </form>
-                </div>
+                    <a class="btn primary-btn big-btn" href="#">Давайте оба!</a>
+                </section>
                 <div class="main-content-left">
                     <section class="promo-banner">
                         <div class="promo-raspberries">
@@ -147,44 +176,40 @@
                 <section class="catalog">
                     <div class="catalog-item">
                         <div class="catalog-img">
-                            <span class="catalog-label-hit"></span>
                             <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
                         </div>
                         <div class="catalog-price">
-                            <span class="catalog-price-rubles">310 ₽/кг</span>
+                            310 <span class="catalog-price-rubles">₽</span>/кг
                         </div>
                         <a class="catalog-name" href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
                         <button class="btn primary-btn small-btn">Быстрый просмотр</button>
                     </div>
                     <div class="catalog-item">
                         <div class="catalog-img">
-                            <span class="catalog-label-hit"></span>
                             <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочно-кофейное с кусочками шоколада">
                         </div>
                         <div class="catalog-price">
-                            <span class="catalog-price-rubles">380 ₽/кг</span>
+                            380 <span class="catalog-price-rubles">₽</span>/кг
                         </div>
                         <a class="catalog-name" href="#">Сливочно-кофейное с кусочками шоколада</a>
                         <button class="btn primary-btn small-btn">Быстрый просмотр</button>
                     </div>
                     <div class="catalog-item">
                         <div class="catalog-img">
-                        <span class="catalog-label-hit"></span>
                             <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочно-клубничное с присыпкой из белого шоколада">
                         </div>
                         <div class="catalog-price">
-                            <span class="catalog-price-rubles">355 ₽/кг</span>
+                            355 <span class="catalog-price-rubles">₽</span>/кг
                         </div>
                         <a class="catalog-name" href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
                         <button class="btn primary-btn small-btn">Быстрый просмотр</button>
                     </div>
                     <div class="catalog-item">
                         <div class="catalog-img">
-                            <span class="catalog-label-hit"></span>
                             <img src="http://placehold.it/267x267" width="267" height="267" alt="Сливочное крем-брюле с карамельной подливкой">
                         </div>
                         <div class="catalog-price">
-                            <span class="catalog-price-rubles">415 ₽/кг</span>
+                            415 <span class="catalog-price-rubles">₽</span>/кг
                         </div>
                         <a class="catalog-name" href="#">Сливочное крем-брюле с карамельной подливкой</a>
                         <button class="btn primary-btn small-btn">Быстрый просмотр</button>
@@ -244,6 +269,7 @@
                                     <div class="feedback-form-title">
                                         Мы обязательно вам ответим!
                                     </div>
+                                    <button class="feedback-form-close"></button>
                                     <form action="#" method="post">
                                         <input type="text" placeholder="Как вас зовут?">
                                         <input type="email" placeholder="Ваша почта для ответа?">
