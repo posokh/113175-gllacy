@@ -1,0 +1,199 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    line-height: normal; 
+    color: #fff;
+    background: #849d8f;
+}
+
+
+
+
+/* Text styles */
+
+
+.navigation-menu {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navigation-menu-dropdown {
+    font-size: 14px;
+    color: #343434;
+    font-weight: 400;
+}
+
+.navigation-menu-dropdown .navigation-menu-special {
+    font-weight: 700;
+}
+
+.authorization-title {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.hours-header {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.phone-header {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.title-slider {
+    font-size: 60px;
+    line-height: 60px; 
+    font-weight: 900;
+}
+
+.promo-banner-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.promo-banner-text {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.catalog-price {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.catalog-name {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.qualities-title {
+    font-size: 24px;
+    line-height: 30px;
+    color: #323232;
+    font-weight: 500;
+}
+
+.quality-text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #323232;
+    font-weight: 400;
+}
+
+.blog-banner-new {
+    font-size: 16px;
+    color: #5a5a5a;
+    font-weight: 400;
+}
+
+.blog-banner-title {
+    font-size: 24px;
+    color: #353535;
+    font-weight: 500;
+}
+
+.newsletter-banner-text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #5a5a5a;
+    font-weight: 400;    
+}
+
+.contacts-block-office {
+    font-size: 14px;
+    line-height: 20px;
+    color: #343434;
+    font-weight: 400;    
+}
+
+.contacts-block-office b {
+    font-size: 18px;
+    line-height: 24px;
+    color: #343434;
+    font-weight: 700;    
+}
+
+.contacts-block-phone {
+    font-size: 14px;
+    line-height: 20px;
+    color: #343434;
+    font-weight: 400;    
+}
+
+.contacts-block-phone b {
+    font-size: 18px;
+    line-height: 24px;
+    color: #343434;
+    font-weight: 700;    
+}
+
+.footer-links {
+    font-size: 13px;
+    font-weight: 400;    
+}
+
+.footer-links-special {
+    font-size: 13px;
+    font-weight: 700;    
+}
+
+.footer-links-copyright {
+    font-size: 12px;
+    font-weight: 400;    
+}   
+
+.catalog-breadcrumbs {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.catalog-title {
+    font-size: 35px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.catalog-filter-title {
+    font-size: 14px;
+    font-weight: 500;
+}   
+
+.catalog-filter-select {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pagination-btn {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.medium-btn {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.big-btn {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.medium-btn {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.small-btn {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+
+
+/* Control styles */
+
+
+/* Link styles */
