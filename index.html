@@ -11,7 +11,7 @@
     
     <body>
         <header class="main-header">
-            <div class="container">
+            <div class="container clearfix">
                 <div class="header-logo">
                     <img src="img/logo.svg" width="154" height="64" alt="Gllacy Shop">
                 </div>
@@ -134,48 +134,51 @@
                         <input type="radio" id="slider-btn-1" name="toggle" checked>
                         <input type="radio" id="slider-btn-2" name="toggle">
                         <input type="radio" id="slider-btn-3" name="toggle">
-                        <div class="slider-btn">
                             <label for="slider-btn-1"></label>
                             <label for="slider-btn-2"></label>
                             <label for="slider-btn-3"></label>
-                        </div>                    
+                        </div>        
+                        <a class="btn primary-btn big-btn" href="#">Давайте оба!</a>            
                         <div class="slider-content">
                             <div class="slider-slides">
                                 <div class="slider-slide-1">
                                     <h1 class="title-slider">Крем-брюле и пломбир с малиновым джемом</h1>
                                     <img src="img/slider-1.png" width="1045" height="881" alt="Крем-брюле и пломбир с малиновым джемом">
+                                    
                                 </div>
                                 <div class="slider-slide-2">
-                                    <h1 class="title-slider">Крем-брюле и пломбир с малиновым джемом</h1>
+                                    <h1 class="title-slider">Шоколадный пломбир и лимонный сорбет</h1>
                                     <img src="img/slider-2.png" width="1046" height="845" alt="Шоколадный пломбир и лимонный сорбет ">
                                 </div>
                                 <div class="slider-slide-3">
-                                    <h1 class="title-slider">Крем-брюле и пломбир с малиновым джемом</h1>
+                                    <h1 class="title-slider">Пломбир с помадкой и клубничный щербет</h1>
                                     <img src="img/slider-3.png" width="1046" height="838" alt="Пломбир с помадкой и клубничный щербет">
                                 </div>
-                            </div>                        
+                            </div>
+                            <div class="slider-btn">                        
                         </div>
-                    <a class="btn primary-btn big-btn" href="#">Давайте оба!</a>
                 </section>
-                <div class="main-content-left">
-                    <section class="promo-banner">
-                        <div class="promo-raspberries">
-                            <h2 class="promo-banner-title">Малинка даром!</h2>
-                            <p class="promo-banner-text">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
-                            <a class="btn primary-btn medium-btn" href="#">Хочу варенье!</a>
+                <section class="promo clearfix">
+                    <div class="main-content-left">
+                        <div class="promo-banner">
+                            <div class="promo-raspberries">
+                                <h2 class="promo-banner-title">Малинка даром!</h2>
+                                <p class="promo-banner-text">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
+                                <a class="btn primary-btn medium-btn" href="#">Хочу варенье!</a>
+                            </div>
                         </div>
-                    </section>
-                </div>
-                <div class="main-content-right">
-                    <section class="promo-banner">
-                        <div class="promo-chocolate">
-                            <h2 class="promo-banner-title">Шоколадки даром!</h2>
-                            <p class="promo-banner-text">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-                            <a class="btn primary-btn medium-btn" href="#">Хочу шоколадки!</a>
+                    </div>
+                    <div class="main-content-right">
+                        <div class="promo-banner">
+                            <div class="promo-chocolate">
+                                <h2 class="promo-banner-title">Шоколадки даром!</h2>
+                                <p class="promo-banner-text">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+                                <a class="btn primary-btn medium-btn" href="#">Хочу шоколадки!</a>
+                            </div>
                         </div>
-                    </section>
-                </div>
-                <section class="catalog">
+                    </div>
+                </section>
+                <section class="catalog clearfix">
                     <div class="catalog-item">
                         <div class="catalog-img">
                             <img src="img/item-1.jpg" width="267" height="267" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
@@ -217,7 +220,7 @@
                         <button class="btn primary-btn small-btn">Быстрый просмотр</button>
                     </div>
                 </section>
-                <section class="qualities">
+                <section class="qualities clearfix">
                     <h3 class="qualities-title">Магазин Глейси  — это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h3>
                     <div class="main-content-left">
                         <div class="quality-text quality-ice">
@@ -237,21 +240,23 @@
                         </div>
                     </div>
                 </section>
-                <div class="main-content-left">
-                    <section class="blog-banner">
-                        <div class="blog-banner-new">Новое в нашем блоге</div>
-                        <h3 class="blog-banner-title">10 способов сервировки фруктовых щербетов к столу</h3>
-                    </section>    
-                </div>
-                <div class="main-content-right">
-                    <section class="newsletter-banner">
-                        <p class="newsletter-banner-text">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)</p>
-                        <form>
-                            <input type="text" placeholder="Электронная почта">
-                            <input class="btn primary-btn medium-btn" type="submit" value="Отправить">
-                        </form>
-                    </section> 
-                </div>
+                <section class="banner clearfix">
+                    <div class="main-content-left">
+                        <div class="blog-banner">
+                            <div class="blog-banner-new">Новое в нашем блоге</div>
+                            <h3 class="blog-banner-title">10 способов сервировки фруктовых щербетов к столу</h3>
+                        </div>    
+                    </div>
+                    <div class="main-content-right">
+                        <div class="newsletter-banner">
+                            <p class="newsletter-banner-text">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)</p>
+                            <form>
+                                <input type="text" placeholder="Электронная почта">
+                                <input class="btn primary-btn medium-btn" type="submit" value="Отправить">
+                            </form>
+                        </div> 
+                    </div>
+                </section>
             </main>
             <section class="main-map">
                 <div class="container">
@@ -267,25 +272,24 @@
                                 (с 10 до 20 ежедневно)
                             </div>
                             <a class="btn primary-btn medium-btn" href="#">Форма обратной связи</a>
-                                <div class="feedback-form">
-                                    <div class="feedback-form-title">
-                                        Мы обязательно вам ответим!
-                                    </div>
-                                    <button class="feedback-form-close"></button>
-                                    <form action="#" method="post">
-                                        <input type="text" placeholder="Как вас зовут?">
-                                        <input type="email" placeholder="Ваша почта для ответа?">
-                                        <textarea>Напишите что-нибудь...</textarea>
-                                        <input class="btn primary-btn medium-btn" type="submit" value="Отправить">
-                                    </form>
-                                </div>
+                        </div>
+                        <div class="feedback-form">
+                            <div class="feedback-form-title">
+                                Мы обязательно вам ответим!
+                            </div>
+                            <button class="feedback-form-close"></button>
+                            <form action="#" method="post">
+                                <input type="text" placeholder="Как вас зовут?">
+                                <input type="email" placeholder="Ваша почта для ответа?">
+                                <textarea>Напишите что-нибудь...</textarea>
+                                <input class="btn primary-btn medium-btn" type="submit" value="Отправить">
+                            </form>
                         </div>
                     </div>
                 </div>
-                <img src="img/map.jpg" width="1200" height="430" alt="Карта">
             </section>
             <footer class="main-footer">
-                <div class="container">
+                <div class="container clearfix">
                     <section class="footer-social">
                         <a class="social-btn twitter-btn" href="#">Твиттер</a>
                         <a class="social-btn instagram-btn" href="#">Инстаграм</a>
